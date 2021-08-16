@@ -1,2 +1,2 @@
-# C_pp
+# C
 Learn and practice
