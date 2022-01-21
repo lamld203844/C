@@ -6,7 +6,6 @@ void initialize(int *ptr,int n){
         printf("\nEnter number%d: ",i);
         scanf("%d",ptr+i);
     }
-    free(ptr);
 }
 int largest_array(int *ptr,int n){
     int max=*(ptr);
@@ -22,5 +21,6 @@ int main(){
     int max=largest_array(ptr,n);
     
     printf("\nThe largest element of array if %d",max);
+    free(ptr);
     return 0;
 }
